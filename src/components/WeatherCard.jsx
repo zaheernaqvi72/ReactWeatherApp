@@ -16,8 +16,9 @@ const WeatherCard = ({ location }) => {
 
   // Effect to update the current time every second
   useEffect(() => {
+    const options = { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true };
     const timer = setInterval(() => {
-      setCurrentTime(new Date().toLocaleTimeString());
+      setCurrentTime(new Date().totoLocaleTimeStrin('en-US', options));
     }, 1000);
 
     // Cleanup the timer when the component is unmounted

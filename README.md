@@ -1,4 +1,4 @@
-# [Weather App]()
+# [Weather App](https://react-weather-app-tau-seven.vercel.app/)
 
 The Weather App is a web application that allows users to view the current weather and weather forecast for multiple locations. It provides features such as dark mode, weather forecast for the next 12 hours with timestamps, error handling for not found cities/zips and duplicate cities, display of current date and time, and weather conditions including temperature, humidity, wind speed, and cloud cover.
 
@@ -46,8 +46,9 @@ The Weather App is a web application that allows users to view the current weath
 2. Install dependencies:
 ```bash 
 cd ReactWeatherApp
-
-npm install
+```
+```bash
+npm install or npm install --force
 ```
 
 3. Run the development server:
@@ -55,4 +56,6 @@ npm install
 npm run dev
 ```
 4. Open the link (localhost) in the terminal to view the Weather App.
+
+#### Created by me: Sayed Zaheer Abass
 

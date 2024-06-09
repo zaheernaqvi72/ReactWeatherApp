@@ -13,7 +13,7 @@ const Forecast = ({ forecast }) => {
 
   // Function to format the time in a more readable format
   const formatTime = (date) => {
-    const options = { hour: 'numeric', minute: 'numeric', hour12: false };
+    const options = { hour: 'numeric', minute: 'numeric', hour12: true };
     return new Date(date).toLocaleTimeString('en-US', options);
   };
 
